@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        /********多行文本的省略问题  350px********/
+
+        .wrap {
+            width: 350px;
+            height: 80px;
+            line-height: 25px;
+            overflow: hidden;
+            margin-right: -70px;
+        }
+
+        .prop {
+            float: left;
+            width: 1px;
+            height: 80px;
+            background: transparent;
+        }
+
+        .main {
+            float: right;
+            width: 349px;
+        }
+
+        .end {
+            float: right;
+            position: relative;
+            width: 1px;
+            background: #FFA;
+        }
+
+        .realend {
+            position: absolute;
+            width: 27px;
+            top: -23px;
+            left: 323px;
+            background: #fff;
+            font-size: 13px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="prop"></div>
+        <div class="main">
+            我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤我叫王大锤
+        </div>
+        <div class="end">
+            <div class="realend">...</div>
+        </div>
+    </div>
+</body>
+
+</html>
